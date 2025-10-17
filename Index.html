@@ -1,34 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Personal AI Chat</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chart.AI</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #dcdcdc;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background: linear-gradient(90deg, #ff6a00, #ee0979);
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 25px;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(255, 106, 0, 0.6);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>🤖 My Personal AI</h1>
-      <p class="subtitle">Chat freely. Think deeply. Create endlessly.</p>
-    </header>
-
-    <div class="chat-box" id="chatBox">
-      <div class="message bot">
-        <p>Hello 👋 I’m your personal AI — ready to talk or help you with anything!</p>
-      </div>
-    </div>
-
-    <div class="input-area">
-      <input type="text" id="userInput" placeholder="Type something..." />
-      <button id="sendBtn">Send</button>
-    </div>
-  </div>
-
-  <footer>
-    <p>Created with 💙 by <strong>You</strong></p>
-  </footer>
-
-  <script src="script.js"></script>
+  <h1>Chart.AI</h1>
+  <p>Visualize your data smarter with the power of AI.</p>
+  <button onclick="alert('Coming soon ✨')">Try Now</button>
+  <footer>© 2025 Chart.AI | Built with 💙 by Sukuna</footer>
 </body>
 </html>
